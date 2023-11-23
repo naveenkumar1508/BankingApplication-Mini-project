@@ -67,7 +67,7 @@ class BankAccount{
             System.out.println("======================================================");
             option = sc.next().charAt(0);
             //problem here!!!   a b c d e
-            Character.toUpperCase(option);
+            option = Character.toUpperCase(option);
 
             switch(option){
                 case 'A':
